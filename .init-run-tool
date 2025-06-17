@@ -1,0 +1,4 @@
+{
+    "command": "npm run dev -- --port <port>",
+    "working_directory": "/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend"
+}
