@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 /**
@@ -41,8 +42,6 @@ export default function WebTicTacToe() {
   }
 
   // Render a single square
-  import PropTypes from "prop-types";
-
   function Square({ value, onClick }) {
     return (
       <button
@@ -62,7 +61,6 @@ export default function WebTicTacToe() {
       </button>
     );
   }
-
   // Removed PropTypes validation due to ES6 build errors. Type safety can be handled via TypeScript if needed.
 
   // Render the 3x3 board grid

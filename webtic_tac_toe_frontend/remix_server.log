@@ -3,15 +3,10 @@
 > remix vite:dev --host 0.0.0.0 --port 3000
 
 [33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+5:05:29 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
-5:04:14 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:14 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:14 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:14 PM [vite] (ssr) page reload app/routes/_index.tsx
-5:04:29 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:29 PM [vite] (ssr) page reload app/routes/_index.tsx
-5:04:29 PM [vite] Internal server error: Transform failed with 1 error:
+5:05:30 PM [vite] (ssr) Error when evaluating SSR module virtual:remix/server-build: Transform failed with 1 error:
 /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
   Plugin: vite:esbuild
   File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
@@ -34,7 +29,7 @@
       at readableAddChunk (node:internal/streams/readable:341:9)
       at Socket.Readable.push (node:internal/streams/readable:278:10)
       at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:29 PM [vite] Internal server error: Transform failed with 1 error:
+5:05:30 PM [vite] Internal server error: Transform failed with 1 error:
 /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
   Plugin: vite:esbuild
   File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
@@ -57,57 +52,7 @@
       at readableAddChunk (node:internal/streams/readable:341:9)
       at Socket.Readable.push (node:internal/streams/readable:278:10)
       at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:35 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:35 PM [vite] (ssr) page reload app/routes/_index.tsx
-5:04:35 PM [vite] Internal server error: Transform failed with 1 error:
-/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:45:9: ERROR: Unexpected "PropTypes"
-  Plugin: vite:esbuild
-  File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:45:9
-  
-  Unexpected "PropTypes"
-  43 |  
-  44 |    // Render a single square
-  45 |    import PropTypes from "prop-types";
-     |           ^
-  46 |  
-  47 |    function Square({ value, onClick }) {
-  
-      at failureErrorWithLog (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:1463:15)
-      at /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:734:50
-      at responseCallbacks.<computed> (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:601:9)
-      at handleIncomingPacket (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:656:12)
-      at Socket.readFromStdout (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:579:7)
-      at Socket.emit (node:events:517:28)
-      at addChunk (node:internal/streams/readable:368:12)
-      at readableAddChunk (node:internal/streams/readable:341:9)
-      at Socket.Readable.push (node:internal/streams/readable:278:10)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:36 PM [vite] Internal server error: Transform failed with 1 error:
-/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:45:9: ERROR: Unexpected "PropTypes"
-  Plugin: vite:esbuild
-  File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:45:9
-  
-  Unexpected "PropTypes"
-  43 |  
-  44 |    // Render a single square
-  45 |    import PropTypes from "prop-types";
-     |           ^
-  46 |  
-  47 |    function Square({ value, onClick }) {
-  
-      at failureErrorWithLog (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:1463:15)
-      at /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:734:50
-      at responseCallbacks.<computed> (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:601:9)
-      at handleIncomingPacket (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:656:12)
-      at Socket.readFromStdout (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:579:7)
-      at Socket.emit (node:events:517:28)
-      at addChunk (node:internal/streams/readable:368:12)
-      at readableAddChunk (node:internal/streams/readable:341:9)
-      at Socket.Readable.push (node:internal/streams/readable:278:10)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:45 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:45 PM [vite] (ssr) page reload app/routes/_index.tsx
-5:04:45 PM [vite] Internal server error: Transform failed with 1 error:
+5:05:30 PM [vite] Internal server error: Transform failed with 1 error:
 /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
   Plugin: vite:esbuild
   File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
@@ -130,7 +75,7 @@
       at readableAddChunk (node:internal/streams/readable:341:9)
       at Socket.Readable.push (node:internal/streams/readable:278:10)
       at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:45 PM [vite] Internal server error: Transform failed with 1 error:
+5:09:42 PM [vite] Internal server error: Transform failed with 1 error:
 /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
   Plugin: vite:esbuild
   File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
@@ -153,9 +98,7 @@
       at readableAddChunk (node:internal/streams/readable:341:9)
       at Socket.Readable.push (node:internal/streams/readable:278:10)
       at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:46 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:46 PM [vite] (ssr) page reload app/routes/_index.tsx
-5:04:46 PM [vite] Internal server error: Transform failed with 1 error:
+5:09:43 PM [vite] Internal server error: Transform failed with 1 error:
 /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
   Plugin: vite:esbuild
   File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
@@ -178,7 +121,7 @@
       at readableAddChunk (node:internal/streams/readable:341:9)
       at Socket.Readable.push (node:internal/streams/readable:278:10)
       at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:46 PM [vite] Internal server error: Transform failed with 1 error:
+5:09:53 PM [vite] Internal server error: Transform failed with 1 error:
 /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
   Plugin: vite:esbuild
   File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
@@ -201,9 +144,7 @@
       at readableAddChunk (node:internal/streams/readable:341:9)
       at Socket.Readable.push (node:internal/streams/readable:278:10)
       at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:55 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
-5:04:55 PM [vite] (ssr) page reload app/routes/_index.tsx
-5:04:55 PM [vite] Internal server error: Transform failed with 1 error:
+5:09:54 PM [vite] Internal server error: Transform failed with 1 error:
 /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
   Plugin: vite:esbuild
   File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
@@ -226,26 +167,7 @@
       at readableAddChunk (node:internal/streams/readable:341:9)
       at Socket.Readable.push (node:internal/streams/readable:278:10)
       at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
-5:04:56 PM [vite] Internal server error: Transform failed with 1 error:
-/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9: ERROR: Unexpected "PropTypes"
-  Plugin: vite:esbuild
-  File: /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/app/routes/_index.tsx:44:9
-  
-  Unexpected "PropTypes"
-  42 |  
-  43 |    // Render a single square
-  44 |    import PropTypes from "prop-types";
-     |           ^
-  45 |  
-  46 |    function Square({ value, onClick }) {
-  
-      at failureErrorWithLog (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:1463:15)
-      at /home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:734:50
-      at responseCallbacks.<computed> (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:601:9)
-      at handleIncomingPacket (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:656:12)
-      at Socket.readFromStdout (/home/kavia/workspace/code-generation/webtictactoe-59464-1a4f7482/webtic_tac_toe_frontend/node_modules/vite/node_modules/esbuild/lib/main.js:579:7)
-      at Socket.emit (node:events:517:28)
-      at addChunk (node:internal/streams/readable:368:12)
-      at readableAddChunk (node:internal/streams/readable:341:9)
-      at Socket.Readable.push (node:internal/streams/readable:278:10)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+5:10:25 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
+5:10:25 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
+5:10:25 PM [vite] (client) hmr update /app/routes/_index.tsx, /app/tailwind.css
+5:10:25 PM [vite] (ssr) page reload app/routes/_index.tsx
